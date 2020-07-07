@@ -71,14 +71,10 @@
     display: inline-block;
 }
 
-.cat-underline::after {
-    position: absolute;
-    content: " ";
-    height: 7px;
-    width: 100px;
+
+.hrr{
+    width:100px;
+    height:10px;
+    border-radius: 5px;
     background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0 0 no-repeat padding-box;
-    border-radius: 10px;
-    top: 150%;
-    left: 50%;
-    transform: translateX(-50%);
 }
